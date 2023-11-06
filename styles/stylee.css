@@ -171,7 +171,7 @@ footer {
 grid-template-columns: 1fr 1fr 1fr;
 gap: 50PX;
 background-color: rgb(56, 188, 188);
-padding: 50px;
+padding: 60px;
 justify-items: center;}
 #rivers-msg{text-align: center;
 display: flex;
