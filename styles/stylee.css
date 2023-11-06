@@ -154,7 +154,7 @@ footer {
         justify-content: center;
         text-align: center;
     grid-template-columns: 2/3;
-    margin-bottom: 170px;}
+    margin-bottom: 245px;}
 
 
     .rivers3-card{display: flex;
@@ -163,7 +163,7 @@ footer {
         justify-content: center;
         text-align: center;
     grid-template-columns: 3/4;
-    margin-bottom: 260px;}
+    margin-bottom: 310px;}
 .card-img {width: 100%;}
 #page-title{font-size: large;}
 .msg1{grid-template-columns: 1/2;}
@@ -171,14 +171,15 @@ footer {
 grid-template-columns: 1fr 1fr 1fr;
 gap: 50PX;
 background-color: rgb(56, 188, 188);
-padding: 50px;}
+padding: 50px;
+justify-items: center;}
 #rivers-msg{text-align: center;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 background-color: #219ebc;
-margin-top: -200px;
+margin-top: -205px;
 font-size: 40px;
 color: white;}
 #background {background-color: #d9c2a3;
