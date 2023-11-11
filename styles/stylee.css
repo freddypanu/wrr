@@ -138,14 +138,20 @@ footer {
         .mountains, .msg {width: 80%;
             display: block;
             margin: 0 auto;}
-        footer {margin-top: -50px;}
-    }
+        footer {margin-top: -50px;}}
+.home-grid{display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+ gap: 50PX;
+background-color: rgb(56, 188, 188);
+padding: 60px;
+justify-items: center;
+margin-top: 65px;}
     .rivers1-card{display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: center;
-    grid-template-columns: 1/2;
+    margin-bottom: -50px;
     }
 
     .rivers2-card{display: flex;
@@ -153,8 +159,7 @@ footer {
         align-items: center;
         justify-content: center;
         text-align: center;
-    grid-template-columns: 2/3;
-    margin-bottom: 245px;}
+    margin-bottom: 230px;}
 
 
     .rivers3-card{display: flex;
@@ -162,17 +167,11 @@ footer {
         align-items: center;
         justify-content: center;
         text-align: center;
-    grid-template-columns: 3/4;
-    margin-bottom: 310px;}
+    margin-bottom: 250px;}
 .card-img {width: 100%;}
 #page-title{font-size: large;}
-.msg1{grid-template-columns: 1/2;}
-.home-grid{display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-gap: 50PX;
-background-color: rgb(56, 188, 188);
-padding: 60px;
-justify-items: center;}
+.msg1{grid-template-columns: 1fr 2fr;}
+
 #rivers-msg{text-align: center;
 display: flex;
 flex-direction: column;
@@ -194,3 +193,42 @@ color: white;}
     color: #dac3a4;}
 
 
+/* css content for our contact us page */
+
+.contact-grid{display: flex;
+display: grid;
+grid-template-columns: 1fr 1fr;
+padding: 10px 10px;
+gap: 10px;
+background-color: #d9c2a3;}
+
+.imagess{width: 100%;}
+.pa{margin-top: 0;
+align-items: center;
+margin-top: 0;
+font-size: 25px;}
+
+.imagess img{width: 100%;}
+.contact-section{background-color: #ffffff;
+padding: 20px;
+margin: 20px 0;}
+
+#pageo-title{border: 1px solid rgb(244, 226, 226);
+text-align: center;
+justify-items: center;
+align-items: center;
+margin-bottom: 20px;
+background-color: rgb(225, 217, 198);}
+/* adding some hover in my page-title */
+
+#pageo-title:hover{background-color: #219ebc;
+text-decoration: underline;
+cursor: pointer;}
+.contact-section label:hover{background-color: red;
+    color: white;
+    font-size: large;
+    text-decoration: underline;
+cursor: pointer}
+
+.contact-section{background-color: rgb(225, 217, 198);}
+body{background-color: rgb(240, 237, 230);}
