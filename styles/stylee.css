@@ -232,3 +232,19 @@ cursor: pointer}
 
 .contact-section{background-color: rgb(225, 217, 198);}
 body{background-color: rgb(240, 237, 230);}
+
+
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+                    
